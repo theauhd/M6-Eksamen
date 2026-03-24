@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find den rigtige løbesko | Løbeguide</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="topbar">
+        <div class="logo">Løbe<span>guide</span></div>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Forside</a></li>
+            <li><a href="kategorier.html">Kategorier</a></li>
+            <li><a href="knae.html">Dårlige knæ</a></li>
+            <li><a href="pronation.html">Pronation</a></li>
+            <li><a href="ryg.html">Dårlig ryg</a></li>
+            <li><a href="neutral.html">Neutral</a></li>
+            <li><a href="trail.html">Trail</a></li>
+            <li><a href="om-os.html">Om os</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero">
+        <div>
+          <h1>Find den rigtige løbesko</h1>
+          <p>En simpel statisk hjemmeside, der hjælper brugeren med at vælge den rette løbesko ud fra behov, skader og løbestil.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="kategorier.html">Se kategorier</a>
+            <a class="btn btn-secondary" href="kontakt.html">Kontakt os</a>
+          </div>
+        </div>
+        <div class="hero-box">
+          <img class="responsive" src="images/shoe-allround.svg" alt="Illustration af løbesko">
+          <small class="note">Tip: Brug siden som udgangspunkt i jeres design, dokumentation og GitHub-proces.</small>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    
+<section>
+  <h2 class="section-title">Sådan virker siden</h2>
+  <p class="lead">Brugeren vælger en kategori ud fra sine udfordringer eller behov. Hver underside forklarer, hvad man skal være opmærksom på, og viser eksempler på relevante sko.</p>
+  <div class="grid">
+    <article class="card">
+      <img src="images/shoe-knae.svg" alt="Løbesko til dårlige knæ">
+      <div class="card-content">
+        <h3>Dårlige knæ</h3>
+        <p>Fokus på støddæmpning, komfort og stabilitet.</p>
+        <a href="knae.html">Læs mere</a>
+      </div>
+    </article>
+    <article class="card">
+      <img src="images/shoe-pronation.svg" alt="Løbesko til pronation">
+      <div class="card-content">
+        <h3>Pronation</h3>
+        <p>Fokus på støtte og bedre fodstilling.</p>
+        <a href="pronation.html">Læs mere</a>
+      </div>
+    </article>
+    <article class="card">
+      <img src="images/shoe-ryg.svg" alt="Løbesko til dårlig ryg">
+      <div class="card-content">
+        <h3>Dårlig ryg</h3>
+        <p>Fokus på blød landing og jævn belastning.</p>
+        <a href="ryg.html">Læs mere</a>
+      </div>
+    </article>
+  </div>
+</section>
+<section class="info-box">
+  <h2>Hvorfor er dette godt til opgaven?</h2>
+  <ul class="checklist">
+    <li>Mindst 8 statiske HTML-sider</li>
+    <li>2 separate CSS-filer</li>
+    <li>Tydelig navigation mellem siderne</li>
+    <li>God mulighed for at fordele opgaver i gruppen</li>
+    <li>Nemt at dokumentere med UML, Git-flow og arbejdsproces</li>
+  </ul>
+</section>
+<section class="two-col">
+  <div>
+    <h2>Forslag til gruppefordeling</h2>
+    <p>Én person kan arbejde på layout, én på indhold, én på billeder/illustrationer og én på dokumentation og repository-struktur.</p>
+  </div>
+  <div>
+    <h2>Forslag til repository-struktur</h2>
+    <table>
+      <tr><th>Mappe/fil</th><th>Formål</th></tr>
+      <tr><td>/images</td><td>Billeder og illustrationer af sko</td></tr>
+      <tr><td>style.css</td><td>Overordnet layout, farver og typografi</td></tr>
+      <tr><td>cards.css</td><td>Kort, faner og grids</td></tr>
+      <tr><td>*.html</td><td>Statiske sider for hver kategori</td></tr>
+    </table>
+  </div>
+</section>
+
+  </main>
+  <footer>
+    <div class="container">
+      <strong>Løbeguide</strong> – eksempelprojekt til eksamensopgave om HTML, CSS, design og versionsstyring.
+    </div>
+  </footer>
+</body>
+</html>
