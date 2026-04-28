@@ -19,9 +19,10 @@ body{
   line-height:1.6;
 }
 header{
-  background:linear-gradient(135deg,var(--primary),#16386f);
-  color:var(--white);
-  padding:20px 0 0;
+  background-image: url("running.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .container{width:min(1100px,92%);margin:0 auto}
 .topbar{
