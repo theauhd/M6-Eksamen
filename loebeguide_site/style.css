@@ -18,14 +18,15 @@ body{
   background:var(--bg);
   line-height:1.6;
 }
-body.knae {
-  background-image: url("images/knee.jpg");
+
+header{
+  background-image: url("images/running.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-header{
-  background-image: url("images/running.jpg");
+body.knae {
+  background-image: url("images/knee.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
