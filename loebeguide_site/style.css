@@ -11,7 +11,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{
+header{
   margin:0;
   font-family:'Franklin Gothic Medium', Arial, sans-serif, Helvetica, sans-serif;
   color:var(--text);
