@@ -11,14 +11,14 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-header{
+body{
   margin:0;
   font-family:'Franklin Gothic Medium', Arial, sans-serif, Helvetica, sans-serif;
   color:var(--text);
   background:var(--bg);
   line-height:1.6;
 }
-body{
+header{
   background-image: url("images/running.jpg");
   background-size: cover;
   background-position: center;
