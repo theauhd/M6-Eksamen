@@ -24,12 +24,6 @@ header{
   background-position: center;
   background-repeat: no-repeat;
 }
-body.knae {
-  background-image: url("images/knee.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .container{width:min(1100px,92%);margin:0 auto}
 .topbar{
   display:flex;justify-content:space-between;align-items:center;gap:20px;padding-bottom:18px;
