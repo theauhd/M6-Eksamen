@@ -1,7 +1,7 @@
 # Løbeguide – statisk eksamensprojekt
 
 Indhold:
-- 8+ HTML-sider: index, kategorier, knae, pronation, ryg, neutral, trail, om-os, kontakt
+- 8 HTML-sider: index, kategorier, knae, pronation, carbon, neutral, trail, om-os. 
 - 2 CSS-filer: style.css og cards.css
 - lokale SVG-billeder i /images
 
